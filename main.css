@@ -1,0 +1,146 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: url(../images/west-1611281425068-734.jpg);
+	background-size: cover;
+}
+.header {
+	margin-top: 160px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+	/* text-align: center; */
+    margin-left: 605px;
+	width: 500px;
+	height: 470px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.scon {
+	padding-left: 15px;
+	padding-top: 30px;
+}
+input.name,
+.mail,
+.phone,
+.per,
+.data,
+.time {
+	margin-top: 7px;
+}
+label {
+	margin-right: 60px;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label[for="mail"] {
+	margin-right: 60px;
+}
+label[for="phone"] {
+	margin-right: 36px;
+}
+label[for="per"] {
+	margin-right: 38px;
+}
+.info {
+	outline: none;
+	width: 332px;
+	height: 27px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #222;
+	color: #fff;
+}
+::placeholder {
+	color: #fff;
+}
+select {
+	outline: none;
+	width: 162px;
+	height: 27px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #222;
+	color: #fff;
+	cursor: pointer;
+}
+option {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.data {
+	margin-right: 0;
+}
+label.time {
+	margin-right: 68px;
+}
+input.data {
+	width: 200px;
+	height: 27px;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #222;
+	color: #fff;
+	cursor: pointer;
+}
+input.time {
+	outline: none;
+	width: 128px;
+	height: 27px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #222;
+	color: #fff;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.da_ta {
+	width: 463px;
+	display: inline;
+}
+.ti {
+	display: inline;
+}
+.pls {
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vn {
+	margin-top: 5px;
+}
+.v{
+    margin-top: 5px;
+}
+label[for="veg"],
+[for="non veg"],
+[for="whin"],
+[for="whis"],
+[for="beer"] {
+	cursor: pointer;
+}
+input[type="radio"] {
+	cursor: pointer;
+}
+input[type="submit"],
+[type="reset"] {
+	outline: none;
+	border: none;
+	background-color: rgb(205, 49, 192);
+	width: 95px;
+	height: 30px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.copy {
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+span {
+	color: rgb(205, 49, 192);
+}

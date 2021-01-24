@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="desciption" content="EVENT REGISTRATION FORM" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EVENT REGESTRATION FORM</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <header class="header">
+            <p class="eve">EVENT REGESTRATION FORM</p>
+        </header>
+                            <!-- Container for the inputs -->
+        <section class="container">
+            <form name="EVENT REGISTRATION FORM">
+                <section class="scon">
+                            <!-- An inptut called Name -->
+                    <div class="name">
+                        <label for="name">YOUR NAME</label>
+                        <input type="text" class="info" id="name" name="name" placeholder="Your Name" required> 
+                    </div>
+                            <!-- An input called email -->
+                    <div class="mail">
+                        <label for="mail">YOUR EMAIL</label>
+                        <input type="email" class="info" id="mail" name="mail" placeholder="Your Email" required>
+                    </div>
+                            <!-- An inptut called Phone -->
+                    <div class="phone">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="text" class="info" id="phone" name="phone" placeholder="Phone Number" required maxlength="11"> 
+                    </div>
+                            <!-- Select a numper of persons -->
+                    <div class="per">
+                        <label for="per">NU OF PERSONS</label>
+                        <select name="per" id="per">
+                            <option value="select" disabled selected hidden>select number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                            <!-- An input for data or time -->
+                    <div class="da_ta">
+                        <label for="data" class="data">Data/</label>
+                        <label for="time" class="time">Time</label>
+                        <input type="date" class="data" id="data" name="data" required> 
+                        <input type="time" class="time" id="time" name="time" required> 
+                    </div>
+                            
+                            <!-- First main -->
+                    <p class="pls">PLEASE CHOOSE YOUR FAVOURITE FOOD</p>
+                    <div class="v">
+                        <input type="radio" id="veg" name="veg or non" value="vig" required>
+                        <label for="veg">Veg</label>
+                    </div>
+                    <div class="vn">
+                        <input type="radio" id="non veg" name="veg or non" value="non" required>
+                        <label for="non veg">Non-Veg</label>
+                    </div>
+                            <!-- Secound main -->
+                    <p class="pls">PLEASE CHOOSE YOUR FAVOURITE DRINK</p>
+                    <div class="v">
+                        <input type="radio" id="whin" name="drink" value="whin" required>
+                        <label for="whin">Whin</label>
+                    </div>
+                    <div class="vn">
+                        <input type="radio" id="whis" name="drink" value="whisky" required>
+                        <label for="whis">Whisky</label>
+                    </div>
+                    <div class="v">
+                        <input type="radio" id="beer" name="drink" value="beer" required>
+                        <label for="beer">Beer</label>
+                    </div>
+                    <input type="submit" name="send" value="Send">
+                    <input type="reset" name="reset" value="Reset">
+                </section>
+            </form>
+        </section>
+                            <!-- Container for copyright -->
+        <footer class="footer">
+            <p class="copy">
+                &copy;2021 Event Regestration Form All rights reserved | Design by <span>Mohammed Fandees</span>
+            </p>
+        </footer>
+    </body>
+</html>
